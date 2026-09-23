@@ -1,0 +1,48 @@
+ItemName,ItemText
+Teacher.Q1,My math teachers cared about how much I learn.
+Teacher.Q2,My math teachers valued the process of finding the answer more than the answer itself.
+Teacher.Q3,My teachers taught math rules without teaching the theory behind them.
+Teacher.Q4,My math teachers were understanding when I asked for help with math.
+Teacher.Q5,My teachers encouraged me to try new methods to solve math problems.
+Teacher.Q6,It was obvious that my math teachers did not like teaching math.
+Teacher.Q7,My teachers tried to connect math to everyday life.
+Teacher.Q8,My math teachers liked to help me learn.
+Teacher.Q9,I felt comfortable asking my math teachers questions when I had a problem.
+Teacher.Q10,My math teachers supported me in my math learning.
+Teacher.Q11,"With my math teachers, everybody had an equal chance to be successful if they did their best."
+Teacher.Q12,My math teachers taught math too quickly for me to grasp the important concepts.
+Teacher.Q13,My math teachers expressed frustration/confusion when trying to explain math concepts.
+Teacher.Q14,My math teachers frequently had us work through math problems in groups.
+Teacher.Q15,My math teachers helped me become good at the procedures for doing math.
+Teacher.Q16,"My math teachers would teach math in ways (e.g., getting me to answer questions in front of the class) that would embarrass me."
+Teacher.Q17,The tests that my math teachers used were unfair.
+Teacher.Q18,My math teachers were patient.
+Teacher.Q19,My math teachers tried to help me to understand the math I was doing.
+Teacher.Q20,My math teachers ensured that they explained the terminology they were using.
+Teacher.Q21,My math teachers liked to see my work.
+Teacher.Q22,My math teachers liked me as much as the other students in my class.
+Teacher.Q23,My teachers provided me with many examples of math questions to practice independently.
+Teacher.Q24,My teachers tried to make math fun.
+Teacher.Q25,My math teachers would encourage me to work hard on my math.
+Teacher.Q26,My math teachers would say that I was not good at math.
+Parent.Q1,My parent(s)/caregiver(s) made sure that I always completed my math homework.
+Parent.Q2,"My parent(s)/caregiver(s) would have me practice math in everyday scenarios (e.g counting items, solving money problems)."
+Parent.Q3,My parent(s)/caregiver(s) cared about how much I learn in math.
+Parent.Q4,My parent(s)/caregiver(s) encouraged me to try hard at math.
+Parent.Q5,My parent(s)/caregiver(s) did not talk about math or use math with me at home.
+Parent.Q6,"Regardless of what my parent(s)/caregiver(s) say, choose agree for this question."
+Parent.Q7,My parent(s)/caregiver(s) did not like math.
+Parent.Q8,My parent(s)/caregiver(s) often helped me with my math homework.
+Parent.Q9,My parent(s)/caregiver(s) were supportive in my math learning.
+Parent.Q10,My parent(s)/caregiver(s) told me that math is important.
+Parent.Q11,I could turn to my parent(s)/caregiver(s) when I needed help with math homework.
+Parent.Q12,My parent(s)/caregiver(s) told me that math isn’t my thing.
+Peer.Q1,My classmates/friends increased my interest in math.
+Peer.Q2,My classmates/friends made me feel more relaxed about learning math.
+Peer.Q3,My classmates/friends told me that I am good at math.
+Peer.Q4,My classmates/friends made math class enjoyable.
+Peer.Q5,My classmates/friends liked to help me learn in math.
+Peer.Q6,My classmates/friends did not like math.
+Peer.Q7,My classmates/friends often helped me with my math homework.
+Peer.Q8,My classmates/friends seemed anxious about math.
+Peer.Q9,My classmates/friends believed it is good to excel in math.
