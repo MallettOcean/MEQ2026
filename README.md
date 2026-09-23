@@ -9,8 +9,8 @@ This repository contains the anonymized data from both studies of the manuscript
 
 There are a group of files for Study 1 and a group of files for Study 2.  They are as follows:
 
-|                                  |         |
-|:---------------------------------|--------:|
+                                       
+|:---------------------------------|:--------|
 | Study 1 Data Analyses.R        | The R script that contains the analyses describes in Study 1.  It imports the data from Study 1 Data.rds|
 | Study 1 Data Coding.R          | The R script that imports the raw data (Study 1 Raw Data.csv), defines subscales, and removes participants for failed any of the attention checks. |
 | Study 1 Data.rds               | This is the cleaned data created by the Study 1 Data Coding.R script.  It is in the rds format to preserve factoring. |
