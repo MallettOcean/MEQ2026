@@ -3,7 +3,7 @@ This is a public repository for the 2026 manuscript that is an extension and val
 
 ## Organization
 
-This repository contains the anonymized data from both studies of the manuscript, as well as R scripts that reproduce the analyses that we done in the paper.  The R scripts are designed to run on these anonymized datasets.
+This repository contains the anonymized data from both studies of the manuscript, as well as R scripts that reproduce the analyses that were done in the paper.  The R scripts are designed to run on these anonymized datasets.
 
 ## Files
 
