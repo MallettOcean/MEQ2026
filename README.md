@@ -1,4 +1,4 @@
-MEQ 2026
+# MEQ 2026
 This is a public repository for the 2026 manuscript that is an extension and validation of the Math Experience Questionnaire (MEQ), first introduced by O'Leary, Hallett, &amp; Fitzpatrick (2017).
 
 ## Organization
@@ -9,7 +9,7 @@ This repository contains the anonymized data from both studies of the manuscript
 
 There are a group of files for Study 1 and a group of files for Study 2.  The Study 1 Files are as follows:
 
-# Study 1
+### Study 1
 
 |                                  |         |
 |:---------------------------------|:--------|
@@ -22,7 +22,7 @@ There are a group of files for Study 1 and a group of files for Study 2.  The St
 
 The Study 2 Files are as follows:
 
-# Study 2
+### Study 2
 
 |                                  |         |
 |:---------------------------------|:--------|
