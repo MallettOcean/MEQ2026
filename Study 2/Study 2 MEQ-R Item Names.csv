@@ -1,0 +1,52 @@
+ItemName,ItemText
+T1_1,My math teachers cared about how much I learn.
+T2_1,My math teachers valued the process of finding the answer more than the answer itself.
+T3R,My teachers taught math rules without teaching the theory behind them.
+T4_1,My math teachers were understanding when I asked for help with math.
+T5_1,My teachers encouraged me to try new methods to solve math problems.
+T6R,It was obvious that my math teachers did not like teaching math.
+T7_1,My teachers tried to connect math to everyday life.
+T8_1,My math teachers liked to help me learn.
+T9_1,I felt comfortable asking my math teachers questions when I had a problem.
+T10_1,My math teachers supported me in my math learning.
+T11_1,"With my math teachers, everybody had an equal chance to be successful if they did their best."
+T12R,My math teachers taught math too quickly for me to grasp the important concepts.
+T13R,My math teachers expressed frustration/confusion when trying to explain math concepts.
+T14_1,My math teachers frequently had us work through math problems in groups.
+T15_1,My math teachers helped me become good at the procedures for doing math.
+T16R,"My math teachers would teach math in ways (e.g., getting me to answer questions in front of the class) that would embarrass me."
+T17R,The tests that my math teachers used were unfair.
+T18_1,My math teachers were patient.
+T19_1,My math teachers tried to help me to understand the math I was doing.
+T20_1,My math teachers ensured that they explained the terminology they were using.
+T21_1,My math teachers liked to see my work.
+T22_1,My math teachers liked me as much as the other students in my class.
+T23_1,My teachers provided me with many examples of math questions to practice.
+T24_1,My teachers tried to make math fun.
+T25_1,My math teachers were encouraging.
+T26R,My math teachers would say that I was not good at math.
+T27_1,My math teachers were approachable.
+PAR1_1,My parent(s)/caregiver(s) made sure that I always completed my math homework.
+PAR2_1,"My parent(s)/caregiver(s) would have me practice math in everyday scenarios (e.g counting items, solving money problems)."
+PAR3_1,My parent(s)/caregiver(s) cared about how much I learn in math.
+PAR4_1,My parent(s)/caregiver(s) encouraged me to try hard at math.
+PAR5R,My parent(s)/caregiver(s) did not talk about math or use math with me at home.
+PAR7R,My parent(s)/caregiver(s) did not like math.
+PAR8_1,My parent(s)/caregiver(s) often helped me with math.
+PAR9_1,My parent(s)/caregiver(s) were supportive in my math learning.
+PAR10_1,My parent(s)/caregiver(s) told me that math is important.
+PAR11_1,I could turn to my parent(s)/caregiver(s) when I needed help with math.
+PAR12R,My parent(s)/caregiver(s) told me that math isn’t my thing.
+PAR13_1,I felt comfortable asking my parents/caregiver(s) questions when I had a problem.
+PR1_1,My classmates/friends increased my interest in math.
+PR2_1,My classmates/friends made me feel more relaxed about learning math.
+PR3_1,My classmates/friends told me that I am good at math.
+PR4_1,My classmates/friends made math class enjoyable.
+PR5_1,My classmates/friends liked to help me learn in math.
+PR6R,My classmates/friends did not like math.
+PR7_1,My classmates/friends often helped me with my math homework.
+PR8R,My classmates/friends seemed anxious about math.
+PR9_1,My classmates/friends believed it is good to excel in math.
+PR10_1,My classmates/friends were supportive in my math learning
+PR11_1,I felt comfortable asking my classmates/friends questions when I had a problem.
+PR12_1,"I would practice math in everyday scenarios (e.g. sharing costs, calculating scores) with my classmates/friends."
