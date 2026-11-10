@@ -59,7 +59,7 @@ MEQ$AMS_ExtrinsicIdentified = rowMeans(as.data.frame(lapply(MEQ[,c("AMS2_1", "AM
                                                             as.numeric)))
 MEQ$AMS_ExtrinsicIntrojected = rowMeans(as.data.frame(lapply(MEQ[,c("AMS6_1", "AMS13_1", "AMS20_1", "AMS27_1")],
                                                              as.numeric)))
-MEQ$AMS_ExtrinsicExternal = rowMeans(as.data.frame(lapply(MEQ[,c("AMS8_1", "AMS14_1", "AMS21_1")],
+MEQ$AMS_ExtrinsicExternal = rowMeans(as.data.frame(lapply(MEQ[,c("AMS7_1", "AMS14_1", "AMS21_1")],
                                                           as.numeric)))
 MEQ$AMS_Amotivation = rowMeans(as.data.frame(lapply(MEQ[,c("AMS4_1", "AMS11_1", "AMS18_1", "AMS25_1")],
                                                     as.numeric)))
