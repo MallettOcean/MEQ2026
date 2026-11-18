@@ -46,28 +46,39 @@ MEQ$PSWQ = rowMeans(as.data.frame(lapply(MEQ[,c("PSWQ1R", "PSWQ2_1", "PSWQ3R", "
 
 # Subscales of the AMS
 
+# For the AMS for this study, we modified the questionnaire to be relevant for those who may not be in 
+# university of college.  That means the item one was eliminated, so AMS1_1 is actually item 2 on the
+# original AMS, AMS2_1 is item 3, and so on to AMS27_1 being item 28 on the original subscale. Let's renumber
+# item names so they reflect the original AMS item numbers.
+
+names(MEQ)[match(paste0("AMS", 1:27, "_1"), names(MEQ))] = paste0("AMS", 2:28)
 
 descriptives(MEQ[,grep("AMS", names(MEQ))], desc = "rows")
 
-MEQ$AMS_IntrinsicKnow = rowMeans(as.data.frame(lapply(MEQ[,c("AMS1_1", "AMS8_1", "AMS15_1", "AMS22_1")],
+# Now create the subscales
+
+MEQ$AMS_IntrinsicKnow = rowMeans(as.data.frame(lapply(MEQ[,c("AMS2", "AMS9", "AMS16", "AMS23")],
                                                       as.numeric)))
-MEQ$AMS_IntrinsicAccomplish = rowMeans(as.data.frame(lapply(MEQ[,c("AMS5_1", "AMS12_1", "AMS19_1", "AMS26_1")],
+MEQ$AMS_IntrinsicAccomplish = rowMeans(as.data.frame(lapply(MEQ[,c("AMS6", "AMS13", "AMS20", "AMS27")],
                                                             as.numeric)))
-MEQ$AMS_IntrinsicStimulation = rowMeans(as.data.frame(lapply(MEQ[,c("AMS3_1", "AMS10_1", "AMS17_1", "AMS24_1")],
+MEQ$AMS_IntrinsicStimulation = rowMeans(as.data.frame(lapply(MEQ[,c("AMS4", "AMS11", "AMS18", "AMS25")],
                                                              as.numeric)))
-MEQ$AMS_ExtrinsicIdentified = rowMeans(as.data.frame(lapply(MEQ[,c("AMS2_1", "AMS9_1", "AMS16_1", "AMS23_1")],
+
+MEQ$AMS_ExtrinsicIdentified = rowMeans(as.data.frame(lapply(MEQ[,c("AMS3", "AMS10", "AMS17", "AMS24")],
                                                             as.numeric)))
-MEQ$AMS_ExtrinsicIntrojected = rowMeans(as.data.frame(lapply(MEQ[,c("AMS6_1", "AMS13_1", "AMS20_1", "AMS27_1")],
-                                                             as.numeric)))
-MEQ$AMS_ExtrinsicExternal = rowMeans(as.data.frame(lapply(MEQ[,c("AMS7_1", "AMS14_1", "AMS21_1")],
+MEQ$AMS_ExtrinsicIntrojected = rowMeans(as.data.frame(lapply(MEQ[,c("AMS7", "AMS14", "AMS21", "AMS28")],
                                                           as.numeric)))
-MEQ$AMS_Amotivation = rowMeans(as.data.frame(lapply(MEQ[,c("AMS4_1", "AMS11_1", "AMS18_1", "AMS25_1")],
+MEQ$AMS_ExtrinsicExternal = rowMeans(as.data.frame(lapply(MEQ[,c("AMS8", "AMS15", "AMS22")],
+                                                      as.numeric)))
+
+MEQ$AMS_Amotivation = rowMeans(as.data.frame(lapply(MEQ[,c("AMS5", "AMS12", "AMS19", "AMS26")],
                                                     as.numeric)))
 
+
 # 5 Factor Subscale of the AMS
-MEQ$AMS_Intrinsic = rowMeans(as.data.frame(lapply(MEQ[,c("AMS1_1", "AMS8_1", "AMS15_1", "AMS22_1",
-                                                         "AMS5_1", "AMS12_1", "AMS19_1", "AMS26_1",
-                                                         "AMS3_1", "AMS10_1", "AMS17_1", "AMS24_1")],
+MEQ$AMS_Intrinsic = rowMeans(as.data.frame(lapply(MEQ[,c("AMS2", "AMS9", "AMS16", "AMS23",
+                                                         "AMS6", "AMS13", "AMS20", "AMS27",
+                                                         "AMS4", "AMS11", "AMS18", "AMS25")],
                                                   as.numeric)))
 
 
@@ -152,13 +163,6 @@ MEQ[,grep("MEQ.T", names(MEQ))] = lapply(MEQ[,grep("MEQ.T", names(MEQ))], functi
                                                                                        return(x)})
 
 descriptives(MEQ[,grep("MEQ.T", names(MEQ))], desc = "rows")
-
-# Look for straight lining
-
-MEQ$TeacherItemSD = apply(MEQ[,grep("MEQ.T", names(MEQ))], 1, sd, na.rm = TRUE)
-View(MEQ[order(MEQ$TeacherItemSD),c(names(MEQ)[grep("MEQ.T", names(MEQ))], "TeacherItemSD")])
-
-# There seems to be one clear case of repeated pattern (i.e., 5, 4, 5, 4, etc.)
 
 # Reverse coded items for MEQ Teacher Block
 MEQ$MEQ.T3R = 6 - as.numeric(MEQ$MEQ.T3_1)
